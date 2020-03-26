@@ -2,6 +2,8 @@
 
 set -eu
 
+env
+
 mkdir -p _functions
 go build -o ./_functions/hello-lambda ./functions/hello
 mkdir -p $NETLIFY_CACHE_DIR/our_node_modules
