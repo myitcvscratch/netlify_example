@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-set -eu
-
-env
+set -eux
 
 mkdir -p _functions
 go build -o ./_functions/hello-lambda ./functions/hello
