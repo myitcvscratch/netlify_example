@@ -1,0 +1,23 @@
+{
+  "name": "netlify_example",
+  "version": "1.0.0",
+  "description": "Initial commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myitcvscratch/netlify_example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myitcvscratch/netlify_example/issues"
+  },
+  "homepage": "https://github.com/myitcvscratch/netlify_example#readme",
+  "devDependencies": {
+    "prettier": "^2.0.2"
+  }
+}
